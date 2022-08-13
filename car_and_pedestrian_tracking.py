@@ -1,5 +1,5 @@
 import cv2
-video=cv2.VideoCapture('pedestrain_vehicle.mp4')
+video=cv2.VideoCapture('cars.mp4')
 #pre trained car & pedestrian detector
 classifier_file='haarcascade_car.xml'
 pedestrian_tracker_file='haarcascade_fullbody.xml'
